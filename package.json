@@ -6,5 +6,8 @@
   "repository": "git@github.com:IvaTsu/calculator.git",
   "author": "IvaTsu <ivan.tsud@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "prettier": "^1.15.2"
+  }
 }
