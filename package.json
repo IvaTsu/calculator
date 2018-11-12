@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A calculator made with React.js and Node.js",
   "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": "git@github.com:IvaTsu/calculator.git",
   "author": "IvaTsu <ivan.tsud@gmail.com>",
   "license": "MIT",
@@ -12,6 +15,7 @@
   },
   "devDependencies": {
     "eslint": "^5.9.0",
-    "eslint-config-google": "^0.11.0"
+    "eslint-config-google": "^0.11.0",
+    "mocha": "^5.2.0"
   }
 }
