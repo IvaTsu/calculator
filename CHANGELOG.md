@@ -6,3 +6,4 @@
 - Added CHANGELOG.md.
 - Added CONTRIBUTING.md.
 - Added LICENSE.
+- Implemented 'add()' function.
