@@ -8,7 +8,7 @@
 
 ## Prerequisites
 
-Write here the steps for prerequisites (if needed).
+Here the steps for prerequisites:
 
 - Step 1.
 - Step 2.
