@@ -14,6 +14,11 @@ it('Should return 4', () => {
   assert.equal(add(1, 3), 4);
 });
 
+// test add() function if one of passed number is negative
+it('Should return 4', () => {
+  assert.equal(add(-1, 5), 4);
+});
+
 // test add() function if numbers are passed as strings
 it('Should return 8', () => {
   assert.equal(add('2', '6'), 8);
