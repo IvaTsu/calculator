@@ -2,7 +2,7 @@ const assert = require('assert');
 
 const operations = require('./operations.js');
 
-const { add, subtract } = operations;
+const { add, subtract, multiply, divide } = operations;
 
 // Test the test :)
 it('Should be TRUE', () => {
@@ -52,4 +52,30 @@ it('Should return -1', () => {
 // test subtract() function if the passed numbers are negative
 it('Should return 1', () => {
   assert.equal(subtract(-3, -4), 1);
+});
+
+// test multiply() function if numbers are passed
+it('Should return 32', () => {
+  assert.equal(multiply(4, 8), 32);
+});
+// test multiply() function if number and string are passed
+it('Should return 21', () => {
+  assert.equal(multiply('7', 3), 21);
+});
+// test multiply() function if negative number is passed
+it('Should return -8', () => {
+  assert.equal(multiply(2, -4), -8);
+});
+
+// test divide() function if numbers are passed
+it('Should return 3', () => {
+  assert.equal(divide(21, 7), 3);
+});
+// test divide() function if number and string are passed
+it('Should return 5', () => {
+  assert.equal(divide('25', 5), 5);
+});
+// test divide() function if negative number is passed
+it('Should return -4', () => {
+  assert.equal(divide(8, -2), -4);
 });
