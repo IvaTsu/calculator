@@ -48,3 +48,8 @@ it('Should return 10', () => {
 it('Should return -1', () => {
   assert.equal(subtract(30, 31), -1);
 });
+
+// test subtract() function if the passed numbers are negative
+it('Should return 1', () => {
+  assert.equal(subtract(-3, -4), 1);
+});
