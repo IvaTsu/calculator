@@ -1,7 +1,8 @@
-const assert = require("assert");
+const assert = require('assert');
 
-const operations = require("./operations.js");
-const add = operations.add;
+const operations = require('./operations.js');
+
+const { add } = operations;
 
 // Test the test :)
 it('Should be TRUE', () => {
