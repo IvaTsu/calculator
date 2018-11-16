@@ -1,27 +1,27 @@
 {
-  "name": "calculator",
-  "version": "0.0.1",
-  "description": "A calculator made with React.js and Node.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "repository": "git@github.com:IvaTsu/calculator.git",
-  "author": "IvaTsu <ivan.tsud@gmail.com>",
-  "license": "MIT",
-  "private": false,
-  "dependencies": {
-    "prettier": "^1.15.2"
-  },
-  "devDependencies": {
-    "eslint": "^5.9.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.11.1",
-    "mocha": "^5.2.0",
-    "prettier": "^1.15.2"
-  }
+	"name": "calculator",
+	"version": "0.0.1",
+	"description": "A calculator made with React.js and Node.js",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha"
+	},
+	"repository": "git@github.com:IvaTsu/calculator.git",
+	"author": "IvaTsu <ivan.tsud@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"dependencies": {
+		"prettier": "^1.15.2"
+	},
+	"devDependencies": {
+		"eslint": "^5.9.0",
+		"eslint-config-airbnb": "^17.1.0",
+		"eslint-config-prettier": "^3.3.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-jsx-a11y": "^6.1.2",
+		"eslint-plugin-prettier": "^3.0.0",
+		"eslint-plugin-react": "^7.11.1",
+		"mocha": "^5.2.0",
+		"prettier": "^1.15.2"
+	}
 }
