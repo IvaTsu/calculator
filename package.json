@@ -6,9 +6,9 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "react-scripts build",
-		"test": "react-scripts test",
+		"test-components": "react-scripts test",
 		"eject": "react-scripts eject",
-		"mocha": "mocha"
+		"test-logic": "mocha logic.test.js"
 	},
 	"repository": "git@github.com:IvaTsu/calculator.git",
 	"author": "IvaTsu <ivan.tsud@gmail.com>",
